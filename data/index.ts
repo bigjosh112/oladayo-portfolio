@@ -46,7 +46,6 @@ export const gridItems = [
     img: "/grid.svg",
     spareImg: "/b4.svg",
   },
-
   {
     id: 5,
     title: "Currently Exploring my interest in Blockchain Based Supply Chain",
@@ -87,6 +86,36 @@ export const projects = [
   },
   {
     id: 2,
+    title: "The Flex - Find Your Perfect Flexible Space",
+    des: "Discover premium short-term rentals in the world's most desirable locations. Experience comfort, convenience, and flexibility like never before.",
+    img: "/the-flex.png",
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/nextjs.svg",
+      "/nodejs.svg",
+      "/mongo-db.png",
+    ],
+    link: "https://flex-living-frontend-timi.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "Gopaddi – Travel, done your way",
+    des: "One platform for all your travel needs - from booking to chat management, to payment, agenices, personal to business",
+    img: "/gopaddi.png",
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/nextjs.svg",
+      "/nodejs.svg",
+      "/mongo-db.png",
+    ],
+    link: "https://www.gopaddi.com/",
+  },
+  {
+    id: 4,
     title: "Voyatek Group – Company Web App, Recruitment, CM",
     des: "The complete landing page for Voyatek Group, along with a robust admin web application to manage job listings, applications, blog posts, subscriber data, and contact inquiries — empowering individuals and businesses to navigate their world with ease and shape their own aspirations.",
     img: "/voyatek.png",
@@ -101,7 +130,7 @@ export const projects = [
     link: "https://www.voyatekgroup.com/",
   },
   {
-    id: 3,
+    id: 5,
     title: "Discova Trips",
     des: "DiscovaTrips is a membership-based travel and activity platform tailored for individuals, families, corporations, experience enthusiasts, and those exploring global citizenship opportunities. It addresses diverse user needs by providing curated experiences, personalized activities, and premium membership options.",
     img: "/discova-image.png",
@@ -116,7 +145,7 @@ export const projects = [
     link: "https://www.discovatrips.com/",
   },
   {
-    id: 4,
+    id: 6,
     title: "Owambe - Enterprise Resource Planning",
     des: " Owambe Event Organizer ERP, Authentication and profile settings, Creating and managing event details, Adding guests, handling invitations, and managing seating, Handling food and drink items, as well as order management, Uploading, sharing, and purchasing event media, Managing wishlists and cash gift transactions, Guest PWA and Guest Scanner Apps for guests interacting with the event (QR codes, invites).",
     img: "/owambe.png",
@@ -131,7 +160,7 @@ export const projects = [
     link: "https://owambe-dashboard.vercel.app/dashboard",
   },
   {
-    id: 5,
+    id: 7,
     title: "Harmony Stores",
     des: "An innovative Nigerian retail technology company that prides itself on delivering top-quality computers, mobile phones, gadgets, and much more..",
     img: "/harmony.jpeg",
@@ -146,7 +175,7 @@ export const projects = [
     link: "https://www.harmonystores.ng/",
   },
   {
-    id: 6,
+    id: 8,
     title: "Job Tracker",
     des: "Users can easily manage their job applications, track progress, and stay organized throughout their job hunt journey.",
     img: "/jobsAPI.png",
@@ -161,7 +190,7 @@ export const projects = [
     link: "https://github.com/TimiOdusanya/Job-Tracking-App",
   },
   {
-    id: 7,
+    id: 9,
     title: "Comfy - E commerce Store",
     des: "Your Online Destination for Stylish Home Furnishings.",
     img: "/comfyStore.png",
@@ -169,7 +198,7 @@ export const projects = [
     link: "https://comfystorefurnitures.netlify.app/",
   },
   {
-    id: 8,
+    id: 10,
     title: "FashByStiles - Fashion",
     des: "Fash by Stiles is an online clothing store that specializes in offering the latest fashion trends for men while also providing the option to connect with the store through WhatsApp.",
     img: "/clothesApp.jpeg",
@@ -177,7 +206,7 @@ export const projects = [
     link: "https://github.com/TimiOdusanya/FashionApp",
   },
   {
-    id: 9,
+    id: 11,
     title: "PizzaHub - Pizza Delivery",
     des: "Features such as payment integration, user authentication, and authorization, making it a convenient and secure way to order food..",
     img: "/pizzaHub.jpeg",
@@ -191,7 +220,7 @@ export const projects = [
     link: "https://github.com/TimiOdusanya/Pizza_Delivery_Web_App",
   },
   {
-    id: 10,
+    id: 12,
     title: "Task Manager - To Do",
     des: "Designed to help users efficiently manage their tasks, projects, and to-do lists. Developed with Node.js and axios",
     img: "/taskManager.png",
@@ -206,7 +235,7 @@ export const projects = [
     link: "https://github.com/TimiOdusanya/Task-Manager-App",
   },
   {
-    id: 11,
+    id: 13,
     title: "CampFix - Report management",
     des: " Designed to help university campuses manage and track reports related to environmental and safety issues.",
     img: "/report_management.jpeg",
@@ -214,7 +243,7 @@ export const projects = [
     link: "https://github.com/TimiOdusanya/Campus_Report_Management",
   },
   {
-    id: 12,
+    id: 14,
     title: "Mix Master",
     des: "Your Passport to Beverage Bliss. Your gateway to discovering an array of delightful drinks that quench your thirst and ignite your taste buds.",
     img: "/mixMaster.jpeg",
@@ -222,7 +251,7 @@ export const projects = [
     link: "https://mixmastercocktails.netlify.app/",
   },
   {
-    id: 13,
+    id: 15,
     title: "AirBnb",
     des: "From budget-friendly apartments to luxurious villas, and allows them to filter their search results based on their preferences.",
     img: "/airbnb.png",
