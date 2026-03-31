@@ -162,7 +162,7 @@ export const projects = [
   {
     id: 7,
     title: "ShiftSync",
-    des: "ShiftSync is a platform that allows you to sync your shifts with your team members and managers.",
+    des: "Team scheduling that keeps shifts, availability, and coverage in sync—so coworkers see who's on, and managers can plan without chasing updates across chats and spreadsheets.",
     img: "/shiftsync2.png",
     iconLists: [
       "/nextjs.svg",
