@@ -180,8 +180,15 @@ export const BentoGridItem = ({
                   copied ? "block" : "block"
                 }`}
               >
-                {/* <img src="/confetti.gif" alt="confetti" /> */}
-                <Lottie options={defaultOptions} height={200} width={400} />
+                {copied && (
+                  <Lottie
+                    options={defaultOptions}
+                    height={200}
+                    width={400}
+                    eventListeners={[]}
+                    isClickToPauseDisabled
+                  />
+                )}
               </div>
 
               <MagicButton
