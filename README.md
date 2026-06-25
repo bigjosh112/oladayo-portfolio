@@ -31,6 +31,33 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Repository: [github.com/bigjosh112/oladayo-portfolio](https://github.com/bigjosh112/oladayo-portfolio)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Connect GitHub to Vercel
+
+1. Go to [vercel.com/new](https://vercel.com/new) and sign in with GitHub.
+2. Click **Import** next to `oladayo-portfolio`.
+3. Keep the defaults (Next.js, `npm run build`, root `./`).
+4. No environment variables are required.
+5. Click **Deploy**.
+
+Future pushes to `main` redeploy automatically.
+
+### Post-deploy checklist
+
+- Homepage shows your name and profile photo
+- **Checkout my Resume** opens `/files/Oladayo_Akinola_CV.pdf`
+- LinkedIn link works in the hero and footer
+- Domain Expertise shows 4 cards (including AI Development)
+- Projects and Experience sections render correctly
+
+### Local production build
+
+```bash
+npm run build
+npm start
+```
+
+### Optional: custom domain
+
+In the Vercel project, open **Settings → Domains** and add your domain.
