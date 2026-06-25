@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Backend engineer with a passion for scalable systems.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -48,8 +48,8 @@ export const gridItems = [
   },
   {
     id: 5,
-    title: "Currently Exploring my interest in Blockchain Based Supply Chain",
-    description: "In the Works",
+    title: "Currently building AI-powered SaaS and agentic systems",
+    description: "In progress",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -276,20 +276,11 @@ export const projects = [
   },
 ];
 
-export const testimonials = [
-  {
-    quote:
-      "Collaborating with Timi was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Timi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Timi is the ideal partner.",
-    name: "Daniel Ihebunandu",
-    title: "Senior software engineer at Verraki Africa",
-  },
-  {
-    quote:
-      "Collaborating with Timilehin has been a transformative experience for our team. His ability to adapt to fast-paced environments and solve complex problems creatively has been invaluable. Timilehin consistently demonstrated a high level of technical skill, which was evident in the exceptional quality of his work. His collaborative spirit made a significant impact on our project's success. I would eagerly collaborate with Timilehin again on future projects",
-    name: "Maria Rossi,",
-    title: "CEO at TechInnovate",
-  },
-];
+export const testimonials: {
+  quote: string;
+  name: string;
+  title: string;
+}[] = [];
 
 export const companies = [
   {
@@ -381,55 +372,38 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Full Stack Software Engineer - DivVerse LLC USA",
-    desc: "Developed AI-Powered global talent management solution with development team for African workforce with over 75 companies and 10k+ active users",
+    title: "Backend Engineer - Voyatek Group",
+    desc: "Architected multi-tenant SaaS backend services, built autonomous AI security agents, FastAPI/React admin dashboards, and messaging systems with Redis Pub/Sub and observability tooling.",
     className: "md:col-span-2",
-    thumbnail: "/Divverse-Logo.png",
+    thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Software Developer Voyatek Group, Canada",
-    desc: "Seamless booking management across flights, restaurants, hotels, nightlife, and activities, Real-time audio and video communication.",
+    title: "Full Stack Engineer - ByteSolutions",
+    desc: "Built monitoring APIs and data ingestion pipelines, automated Kubernetes deployments, and migrated core monolith through CI/CD automation with GitHub Actions.",
     className: "md:col-span-2",
-    thumbnail: "/eduglobe.jpg",
+    thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Full Stack Developer - Siciliamia Italy",
-    desc: "Web Application Development, Backend Development, Agile Methodology.",
+    title: "Backend Engineer - Pensadigital Media",
+    desc: "Built production SaaS backends with Laravel and PostgreSQL, implemented Redis caching for high-traffic endpoints, and improved reliability through CI/CD and penetration testing.",
     className: "md:col-span-2",
-    thumbnail: "/sm_logo.webp",
+    thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Full Stack Developer Eduglobe India",
-    desc: "Designed and implemented web applications along with UI/UX designers as a web team liaison for customer-facing projects.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/eduglobe.jpg",
-  },
-  {
-    id: 5,
-    title: "Full Stack Developer Intern - Sidmach Technologies",
-    desc: "Developed and maintained user-facing features using modern frontend and backend technologies.",
+    title: "Backend Engineer - Fairsolid",
+    desc: "Built backend services for optimization applications, designed automation test suites improving reliability, and implemented data processing pipelines that cut processing time significantly.",
     className: "md:col-span-2",
-    thumbnail: "/sidmach-logo.png",
+    thumbnail: "/exp4.svg",
   },
 ];
 
 export const socialMedia = [
   {
     id: 1,
-    img: "/github-new.svg",
-    link: "https://github.com/TimiOdusanya",
-  },
-  {
-    id: 2,
-    img: "/twit.svg",
-    link: "https://twitter.com/timi_odusanya",
-  },
-  {
-    id: 3,
     img: "/link.svg",
-    link: "https://www.linkedin.com/in/timi-odusanya/",
+    link: "https://www.linkedin.com/in/oladayo-akinola-28853b169/",
   },
 ];

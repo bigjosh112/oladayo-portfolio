@@ -10,7 +10,7 @@ const Approach = () => {
         Domain <span className="text-purple">Expertise</span>
       </h1>
       {/* remove bg-white dark:bg-black */}
-      <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
+      <div className="my-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 items-center justify-center w-full gap-4 max-w-7xl mx-auto">
         {/* add des prop */}
         <Card
           title="JavaScript, CSS, React, Next"
@@ -52,6 +52,21 @@ const Approach = () => {
             animationSpeed={3}
             containerClassName="bg-sky-600 rounded-3xl overflow-hidden"
             colors={[[125, 211, 252]]}
+          />
+        </Card>
+        <Card
+          title="LLMs, RAG, AI Agents"
+          icon={<AceternityIcon order="AI Development" />}
+          des="I design and ship AI-powered systems including autonomous agents, RAG pipelines, and LLM integrations. From FastAPI backends to production agent workflows, I build intelligent features that scale reliably in real SaaS products."
+        >
+          <CanvasRevealEffect
+            animationSpeed={3.5}
+            containerClassName="bg-violet-900 rounded-3xl overflow-hidden"
+            colors={[
+              [167, 139, 250],
+              [196, 181, 253],
+            ]}
+            dotSize={2}
           />
         </Card>
       </div>

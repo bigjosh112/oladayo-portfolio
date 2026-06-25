@@ -17,10 +17,7 @@ const RecentProjects = () => {
             className="lg:h-[80vh] h-[25rem] flex items-center justify-center sm:w-full w-[80vw]"
             key={item.id}
           >
-            <PinContainer
-              title={item.link}
-              href="https://twitter.com/timi_odusanya"
-            >
+            <PinContainer title={item.link} href={item.link}>
               <div className="relative flex items-center justify-center sm:w-[38vw] w-[80vw] overflow-hidden h-[30vh] lg:h-[40vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"

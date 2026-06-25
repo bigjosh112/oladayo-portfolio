@@ -43,6 +43,11 @@ const Hero = () => {
 
       <div className="flex justify-center relative mt-20 mb-4 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
+          <img
+            src="/profile.png"
+            alt="Akinola Oladayo Joshua"
+            className="w-28 h-28 md:w-32 md:h-32 rounded-full object-cover object-top border-2 border-white/20 mb-6"
+          />
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-100">
             SEEKING MIND-BLOWING CREATIVITY? YOUR SEARCH ENDS HERE!
           </p>
@@ -58,11 +63,11 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Timi Odusanya, a Full Stack Developer and Software
-            Engineer.
+            Hi! I&apos;m Akinola Oladayo Joshua, a Backend Developer and
+            Software Engineer.
           </p>
 
-          <a href="/files/Resume_Timilehin_Odusanya.pdf" target="_blank">
+          <a href="/files/Oladayo_Akinola_CV.pdf" target="_blank">
             <MagicButton
               title="Checkout my Resume"
               icon={<FaLocationArrow />}

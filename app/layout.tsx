@@ -7,8 +7,12 @@ import { ThemeProvider } from "./provider";
 // const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Timi's Portfolio",
-  description: "Timilehin Odusanya Portfolio",
+  title: "Oladayo Akinola Portfolio",
+  description: "Akinola Oladayo Joshua Portfolio",
+  icons: {
+    icon: "/favicon.png",
+    apple: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
@@ -18,9 +22,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head>
-        <link rel="icon" href="/jsm-logo.png" sizes="any" />
-      </head>
       <body>
         <ThemeProvider
           attribute="class"
